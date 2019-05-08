@@ -1,0 +1,2 @@
+# jvm_study
+* OutofMemoryError
