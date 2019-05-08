@@ -11,8 +11,9 @@ import java.util.List;
  */
 public class HeapOOM {
 
+    /* Java heap space */
     public static void main(String[] args) {
-        List<OOMObject> list = new ArrayList<>();
+        List<OOMObject> list = new ArrayList<>(1000);
         while (true) {
             list.add(new OOMObject());
         }
