@@ -6,4 +6,4 @@
   * -Xms 设置JVM初始堆内存
   * -Xmx 设置JVM最大堆内存
   * -XX:+HeapDumpOnOutOfMemoryError 内存溢出异常时dump出当前内存快照
-  * -Xss 减少栈内存容量
+  * -Xss 减少栈内存大小
