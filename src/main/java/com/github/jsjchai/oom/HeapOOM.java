@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *  java堆内存溢出
  * VM args: -Xms30m -Xmx30m -XX:+HeapDumpOnOutOfMemoryError
- * jdk version: 1.8
  *
  * @author jsjchai.
  */

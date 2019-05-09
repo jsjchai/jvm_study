@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *  运行时常量池内存溢出
+ *  jdk1.6会抛出异常，jdk1.7以上版本会一直运行下去
+ *  VM args: -XX:PermSize=10M  -XX:MaxPermSize=10M
  * @author jsjchai.
  */
 public class RuntimeConstantPoolOOM {
