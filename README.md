@@ -7,6 +7,6 @@
   * -Xmx 设置JVM最大堆内存
   * -XX:+HeapDumpOnOutOfMemoryError 内存溢出异常时dump出当前内存快照
   * -Xss 减少栈内存大小
-  * -XX:PermSize 设置持久代(perm gen)初始值，物理内存的1/64
-  * -XX:MaxPermSize 设置持久代最大值，物理内存的1/4
+  * -XX:PermSize 设置永久代(perm gen)初始值，物理内存的1/64
+  * -XX:MaxPermSize 设置永久代最大值，物理内存的1/4
   * -XX:MaxDirectMemorySize 用于设置New I/O(java.nio) direct-buffer allocations的最大大小，size的单位可以使用k/K、m/M、g/G；如果没有设置该参数则默认值为0，意味着JVM自己自动给NIO direct-buffer allocations选择最大大小
