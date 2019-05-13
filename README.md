@@ -10,3 +10,4 @@
   * -XX:PermSize 设置永久代(perm gen)初始值，物理内存的1/64
   * -XX:MaxPermSize 设置永久代最大值，物理内存的1/4
   * -XX:MaxDirectMemorySize 用于设置New I/O(java.nio) direct-buffer allocations的最大大小，size的单位可以使用k/K、m/M、g/G；如果没有设置该参数则默认值为0，意味着JVM自己自动给NIO direct-buffer allocations选择最大大小
+  * -XX:+PrintGCDetails 用于告诉虚拟机在发生垃圾收集行为时打印内存回收日志，并且在进程退出的时候输出当前内存的各区域分配情况
