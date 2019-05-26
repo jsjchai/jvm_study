@@ -18,6 +18,7 @@
   * -XX:PretenureSizeThreshold  直接晋升到老年代的对象大小,设置这个参数后,大于这个参数的对象将直接在老年代分配
   * -XX:MaxTenuringThreshold  晋升到老年代的对象年龄,每个对象在坚持过一次Minor GC之后,年龄就+1,当超过这个参数值时就进入老年代
   * -XX:+PrintTenuringDistribution 打印GC后新生代各个年龄对象的大小
+  * (JDK 6 Update 24已弃用)-XX:-HandlePromotionFailure 是否允许分配担保失败,即老年代的剩余空间不足以应付新生代的整个Eden和Survivor区的所有对象都存活的极端情况
   
 ### 参考文档
 * [jdk1.8详细参数说明](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html)
